@@ -1,17 +1,17 @@
 export const metadata = {
-  title: "IA Kisler Automatiza",
+  title: "IA Kisler Automatizaciones",
   description: "Automatización de procesos con n8n.",
   openGraph: {
     type: "website",
     locale: "es_ES",
     url: "https://ia-kisler-automatiza.vercel.app/",
-    site_name: "IA-Kisler-Automatiza",
+    site_name: "IA-Kisler-Automatizaciones",
     images: [
       {
         url: "https://res.cloudinary.com/dxfksb8ua/image/upload/v1745029032/images/ec2aee91c29b66c89d53c55a113dba5d_ryuw1s.jpg",
         width: 1200,
         height: 630,
-        alt: "IA Kisler Automatiza",
+        alt: "IA Kisler Automatizaciones",
       },
     ],
   },

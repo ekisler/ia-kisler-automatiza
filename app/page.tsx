@@ -554,16 +554,16 @@ const App: React.FC = () => {
                   <div className="flex items-start">
                     <i className="fas fa-map-marker-alt text-blue-500 mt-1 mr-3"></i>
                     <p className="text-gray-600">
-                      Av. Tecnológica 123, Ciudad Innovación
+                      Santa Eduviges 36-26, Caracas
                     </p>
                   </div>
                   <div className="flex items-start">
                     <i className="fas fa-phone-alt text-blue-500 mt-1 mr-3"></i>
-                    <p className="text-gray-600">+34 912 345 678</p>
+                    <p className="text-gray-600">+58 424 287 0937</p>
                   </div>
                   <div className="flex items-start">
                     <i className="fas fa-envelope text-blue-500 mt-1 mr-3"></i>
-                    <p className="text-gray-600">info@iaautomatiza.com</p>
+                    <p className="text-gray-600">kisler.tecnologia@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -833,7 +833,7 @@ const App: React.FC = () => {
 
           <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">
-              © 2025 IA Automatiza. Todos los derechos reservados.
+              © 2025 IA Kisler Automatizaciones. Todos los derechos reservados.
             </p>
             <p className="text-gray-400 mt-4 md:mt-0">
               Desarrollado por{" "}
