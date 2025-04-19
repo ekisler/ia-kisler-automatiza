@@ -342,7 +342,7 @@ const App: React.FC = () => {
               <Card
                 key={index}
                 className="h-full shadow-sm hover:shadow-md transition-shadow duration-300 cursor-pointer"
-                bordered={false}
+                variant="outlined"
               >
                 <div className="flex flex-col items-center text-center">
                   {service.icon}
@@ -407,7 +407,7 @@ const App: React.FC = () => {
                       />
                     </div>
                   }
-                  bordered={false}
+                  variant="outlined"
                 >
                   <h3 className="text-xl font-semibold mb-2 text-gray-800">
                     {useCase.title}
@@ -691,24 +691,32 @@ const App: React.FC = () => {
               <div className="flex space-x-4">
                 <a
                   href="https://twitter.com/ekracing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white cursor-pointer"
                 >
                   <TwitterOutlined className="text-xl" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/emisael-kisler-fullstack/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white cursor-pointer"
                 >
                   <LinkedinOutlined className="text-xl" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/ekisler"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white cursor-pointer"
                 >
                   <GithubOutlined className="text-xl" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/kisler_tecnologia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white cursor-pointer"
                 >
                   <InstagramOutlined className="text-xl" />
